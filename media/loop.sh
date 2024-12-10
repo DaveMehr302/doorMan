@@ -4,19 +4,19 @@
 
 waitTime=5
 
-while:
+while :
 do
 	mpg321 Whisper.mp3
-	sleep waitTime
+	sleep $waitTime
 
-	mpg321 mortalApproach.mp3
-	sleep waitTime
+	mpg321 mortalApproch.mp3
+	sleep $waitTime
 
 	mpg321 EatYouAlive.mp3
-	sleep waitTime
+	sleep $waitTime
 
 	mpg321 IamDeath.mp3
-	sleep waitTime
+	sleep $waitTime
 
 
 
