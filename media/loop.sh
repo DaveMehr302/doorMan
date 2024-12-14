@@ -11,12 +11,9 @@ echo out > /sys/class/gpio/gpio20/direction
 
 while :
 do
-
 	echo 0 > /sys/class/gpio/gpio20/value
 	sleep $smokeTime
 	echo 1 > /sys/class/gpio/gpio20/value
-
-
 
 	mpg321 Whisper.mp3
 	sleep $waitTime
@@ -30,8 +27,6 @@ do
 	mpg321 IamDeath.mp3
 	sleep $waitTime
 
-
-
-	#Rauchmaschine
-
 done
+
+exit 0
